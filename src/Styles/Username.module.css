@@ -15,10 +15,14 @@
     @apply border-4 w-[135px] rounded-full shadow-lg border-gray-100 cursor-pointer text-[#ffff];
     @apply hover:border-gray-200;
 }
+.textbox {
+    @apply border-0 w-[230px] rounded-xl shadow-sm  text-sm p-4 flex ;
+    @apply focus:outline-none;
+}
 
 /* 
 .textbox{
-    @apply border-0 px-5 py-4 rounded-xl w-3/2 shadow-sm text-lg;
+    @apply border-0  rounded-xl w-3/2 shadow-sm text-lg;
     @apply focus:outline-none;
 }
 

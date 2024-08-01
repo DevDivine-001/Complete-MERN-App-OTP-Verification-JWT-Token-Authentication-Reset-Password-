@@ -19,7 +19,7 @@ export default function Username() {
             </div>
 
             <div className="textbox flex flex-col items-center gap-6">
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Username"  className={Styles.textbox}/>
               <button type="submit" className={Styles.btn}>Let Go</button>
 
             </div>
