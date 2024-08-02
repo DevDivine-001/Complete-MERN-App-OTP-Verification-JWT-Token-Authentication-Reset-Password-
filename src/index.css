@@ -29,10 +29,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* body{
+body{
   background-image: url('./assets/pexels-heyho-6492402.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-} */
+}
