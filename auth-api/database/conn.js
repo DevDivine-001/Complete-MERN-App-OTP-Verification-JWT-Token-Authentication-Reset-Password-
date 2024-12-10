@@ -1,21 +1,21 @@
-// import mongoose from "mongoose";
+import mongoose from "mongoose";
 
 
 
 
-// async function connect() {
+async function connect() {
 
-//     try {
+    try {
 
-//         const conn = await mongoose.connect(process.env.MONGO_URL,);
-//         console.log(`MongoDB Connected 👋👋👋👋🏀${conn.connection.pass}`);
+        const conn = await mongoose.connect(process.env.MONGO_URL,);
+        console.log(`MongoDB Connected 👋👋👋👋🏀${conn.connection.pass}`);
 
 
-//     } catch (error) {
-//         console.log('Error connection to MongoDB', error.message);
-//         process.exit(1)
-//     }
+    } catch (error) {
+        console.log('Error connection to MongoDB', error.message);
+        process.exit(1)
+    }
 
-// }
+}
 
-// export default connect
+export default connect
