@@ -10,7 +10,7 @@ dotenv.config()
 
 
 const app = express()
-
+multer(multer())
 
 
 const port = 8080
